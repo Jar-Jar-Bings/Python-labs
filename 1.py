@@ -1,23 +1,23 @@
-import math
-import functools
-m=int(input("m ="))
-while(m<4):
-    m=int(input("m ="))
-z=math.sqrt((m+3)/(m-3))
-print("z=  √((m+3)/(m-3))")
-print("z=",z)
-n=int(input("n="))
-if(n<3):
-     print("білше")
-while(n<3):
-    n=int(input("n="))
-    if(n<3):
-     print("білше") 
-y=1
-for i in range(0,n*2,2):
-    i+=2
-    y=y*i
-print("y=",y)
+print("Press to  a and b")
+x=int
+a=int(input("a ="))
+while( a < 1 ):
+ a=int(input("a ="))
+b=int(input("b ="))
+while(b < 1):
+  b=int(input("b ="))
+if a>b:
+ x= 5*a+b
+ print(" x= 2*a+b")
+ print(" x=",x)
+ 
+elif a==b:
+    x =-125
+    print("x=",x)
+elif a <b:
+    x=(a-5)/b
+    print("x=",x)
+
 
 
 
